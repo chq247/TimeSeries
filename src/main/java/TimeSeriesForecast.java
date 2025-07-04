@@ -84,7 +84,8 @@ public class TimeSeriesForecast {
     public static void main(String[] args) {
         // 测试数据
 //        double[] data = {10.1, 11.2, 12.0, 11.8, 13.2, 13.9, 13.6, 15.2, 17.5, 19.4, 21.0, 23.2, 24.4, 25.8};
-        double[] data = {10.11, 11.21, 12.01, 11.81, 13.2, 13.91, 13.6, 15.21, 17.5, 19.4, 21.01, 23.21, 24.41, 25.8};
+//        double[] data = {10.11, 11.21, 12.01, 11.81, 13.2, 13.91, 13.6, 15.21, 17.5, 19.4, 21.01, 23.21, 24.41, 25.8};
+        double[] data = {11.11, 11.21, 12.01, 11.81, 13.2, 13.91, 12.6, 15.21, 14.5, 19.4, 21.01, 23.21, 24.41, 25.8};
         int predictionLength = 5;
         int p = 2;
         TimeSeriesForecast tsf = new TimeSeriesForecast(data, predictionLength);
